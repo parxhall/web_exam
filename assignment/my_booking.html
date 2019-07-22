@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/my_booking.css">
+    <link rel="shortcut icon" href="img/icon.jfif" type="image/x-icon"/>
+    <script src="scripts/my_booking.js"></script>
+    <title>WI - My Booking</title>
+</head>
+<!--body open-->
+<body>
+    <!--wrapper open-->
+    <div class="wrapper">
+        <!--header open-->
+        <header>
+            <ul>
+                <!--this is the header to navigate through pages-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </header>
+        <!--header close-->
+        <h1>My Bookings</h1>
+        <!--tab links-->
+        <div class="tab">
+            <button class="tablinks" onclick="openVersion(event, 'upcoming')">Upcoming</button>
+            <button class="tablinks" onclick="openVersion(event, 'history')">History</button>
+        </div>
+        <!--tab content-->
+        <div id="upcoming" class="tabcontent">
+            <h3>Upcoming</h3>
+            <p>These are any current or future bookings.</p>
+        </div>
+        <div id="history" class="tabcontent">
+            <h3>History</h3>
+            <p>These are you previous bookings.</p> 
+        </div>
+    </div>
+    <!--wrapper close-->
+</body>
+<!--body close-->
+</html>

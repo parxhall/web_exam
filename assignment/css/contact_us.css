@@ -1,0 +1,62 @@
+/*style the whole page*/
+* {  
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*style the navigation list within the header*/
+header > ul > li { 
+    display: initial;
+    float: right;
+    margin-right: 2%;
+ }
+
+ /*style the navigation text*/
+a {
+    color: white;
+    text-decoration: none;
+ }
+
+ /*style the position of the list*/
+ header > ul {
+    margin-top: 4%; 
+ }
+
+/*style the header*/
+header {
+    background-attachment: fixed;    
+    background-image: url("../img/laptop.jpg"); 
+    background-position: 50%;  
+    height: 130px;   
+    overflow: hidden;
+}
+
+/*style the main heading*/
+h1 {
+    font-size: 40px;    
+    margin-top: 5%;
+}
+
+/*style the sub-headings*/
+h2 {
+    margin-top: 3%;
+}
+
+/*style the paragraphs*/
+p {
+    font-size: 20px;
+}
+
+/*style for the footer*/
+footer {
+    float: bottom;
+    margin-right: 2%;
+    margin-top: 10%;
+    text-align: right;
+}
+
+/*style for text within the footer*/
+footer > a {
+    font-size: 30px;
+}

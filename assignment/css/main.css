@@ -1,0 +1,46 @@
+/*style the whole page*/
+* {
+    font-family: arial;
+    font-size: 60px;
+}
+
+body {
+    background-attachment: fixed;    
+    background-image: url("../img/laptop.jpg");
+    background-size: 100%;
+}
+
+/*style the heading*/
+h1 {
+    font: bold;
+    font-size: 70px;
+    margin-top: 7%;
+    text-align: center;
+}
+
+/*style the list of headings*/
+h2 { 
+    margin-bottom: 2%;
+    text-align: center; 
+ }
+
+/*style the links*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*style for the footer*/
+.gdpr {
+    bottom: 0px;
+    position: fixed;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 85%;
+}
+
+/*style for text within the footer*/
+footer > a {
+    font-size: 30px;
+}

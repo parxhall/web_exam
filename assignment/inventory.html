@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/inventory.css">
+    <link rel="shortcut icon" href="img/icon.jfif" type="image/x-icon"/>
+    <script src="scripts/inventory.js"></script>
+    <title>WI - Inventory</title>
+</head>
+<!--body open-->
+<body>
+    <!--wrapper open-->
+    <div class="wrapper">
+        <!--header open-->
+        <header>
+            <ul>
+                <!--this is the header to navigate through pages-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </header>
+        <!--header close-->
+        <h1>Inventory</h1>
+        <!--tab links-->
+        <div class="tab">
+            <button class="tablinks" onclick="openVersion(event, 'calendar')">Calendar</button>
+            <button class="tablinks" onclick="openVersion(event, 'approval')">Approval</button>
+        </div>
+        <!--tab content-->
+        <div id="calendar" class="tabcontent">
+            <h3>Calendar</h3>
+            <p>This is the calendar with all the bookings.</p>
+            </div>
+            <!--this brings in a google calendar-->
+            <iframe src="https://calendar.google.com/calendar/embed?height=750&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=cGFyaXMuaGFsbEBuaWhyLmFjLnVr&amp;src=ZW4udWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%230B8043" style="border-width:0" width="1300" height="750" frameborder="0" scrolling="no"></iframe>
+            <div>
+        </div>
+        <div id="approval" class="tabcontent">
+            <h3>Approval</h3>
+            <p>This is the requests that need approving.</p> 
+        </div>
+    <!--wrapper close-->
+</body>
+<!--body close-->
+</html>

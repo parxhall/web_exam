@@ -1,0 +1,91 @@
+h1,h2,h3 { 
+    text-align: center; 
+ }
+
+ * {
+    font-family: arial;
+    background-image: url("laptop.jpg")
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: turquoise;
+}
+
+body {
+    background-image: url("img/laptop.jpg");
+}
+
+.section_1 {
+    background-color: red;
+}
+
+
+.section_2 {
+    background-color: orange;
+}
+
+.section_3 {
+    background-color: yellow;
+}
+
+.section_4 {
+    background-color: green;
+}
+
+.contact_us {
+    background-color: violet;
+}
+
+header {
+    width: 200px;
+    margin: 0 auto;
+}
+
+header > ul > li {
+    display: inline; 
+}
+
+footer {
+    text-align: center;
+}
+
+.section_1,.section_2,.section_3,.section_4 {
+    width: 50%;
+    float: left;
+    height: 250px
+}
+
+.contact_us {
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#contact_form input[type="text"], input[type=email], input[type=text_area] { 
+    float: right;
+    margin-right: 30%;
+    width: 200px;
+}
+
+#contact_form input[type="text_area"] {
+    height: 100px;
+}
+
+#contact_form input[type="submit"] {
+    float: left;
+    margin-left: 40%;
+    margin-right: 60%;
+    background-color: rgb(44, 121, 29);
+    font-weight: bold;
+}
+
+@media (max-width: 400px) {
+    .section_1,.section_2,.section_3,.section_4,.contact_us {
+        margin-top: 10%;
+        float: left;
+        width: 100%;
+    }
+}
