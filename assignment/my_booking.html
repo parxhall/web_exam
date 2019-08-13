@@ -28,11 +28,20 @@
             <button class="tablinks" onclick="openVersion(event, 'upcoming')">Upcoming</button>
             <button class="tablinks" onclick="openVersion(event, 'history')">History</button>
         </div>
-        <!--tab content-->
+        <!--upcoming tab content-->
         <div id="upcoming" class="tabcontent">
             <h3>Upcoming</h3>
             <p>These are any current or future bookings.</p>
+            <div id="upcoming_display">
+                <p>Who requested: </p>
+            </div>
+            <script>
+            function show() {
+                document.getElementById("upcoming_display").innerHTML = person_name;
+                }
+            </script>
         </div>
+        <!--historical bookings tab-->
         <div id="history" class="tabcontent">
             <h3>History</h3>
             <p>These are you previous bookings.</p> 

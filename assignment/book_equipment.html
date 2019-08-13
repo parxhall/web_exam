@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/book_equipment.css">
     <link rel="shortcut icon" href="img/icon.jfif" type="image/x-icon"/>
+    <script> src="scripts/book_equipment.js"</script>
     <title>WI - Booking Request</title>
 </head>
 <!--body begin-->
@@ -24,7 +25,7 @@
         <!--main section open-->
         <div class="main_section">
             <h1>Booking Request</h1>
-            <form id="request" action="#" method="#">
+            <form id="request" method="post" action="acknowledge.php">
                 <fieldset>
                     <legend>Equipment required:</legend>
                     <!--this is the list of equipment for renting-->
@@ -215,7 +216,7 @@
                 <!--this is where the persons name will go-->
                 <fieldset class="text_area">
                     <div>
-                        <p><label for="name">Person Collecting:</label><input type = "text" name="name" required></p>
+                        <p><label for="person_name">Person Collecting:</label><input type = "text" name="person_name" required></p>
                     </div>
                     <div>
                         <p><label for="collect_date">Collection Date:</label><input type = "date" name="collect_date" required></p>
@@ -223,10 +224,9 @@
                     <div>
                         <p><label for="return_date">Return Date:</label><input type = "date" name="return_date" required></p>
                     </div>
-                    <p><input type="submit" name="Submit" value="Submit"></p>
+                    <p><input type="submit" name="send" value="Submit"></p>
                 </fieldset>
-                </form>
-            <input type="checkbox" name="confirmation" value="confirmation"> The information above is correct.<br> 
+            </form>
         </div>
         <!--main section close-->
     </div>
