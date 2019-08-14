@@ -50,13 +50,13 @@ label, .checkbox {
 .checkbox_wrapper {
     width: 100%;
 }
-
+/* 
 .text_area input[type="text"], input[type=date] { 
     float: right;
     margin-right: 70%;
     width: 300px;
     font-size: 17px;
-}
+} */
 
 /*style for the footer*/
 footer {

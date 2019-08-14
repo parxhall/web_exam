@@ -7,13 +7,13 @@
 body {
     background-attachment: fixed;    
     background-image: url("../img/laptop.jpg");
-    background-size: 100%;
+    background-size: cover;
 }
 
-/*style the heading*/
+/*style the heading NO PERCENTAGE */
 h1 {
     font: bold;
-    font-size: 70px;
+    font-size: 1.2em;
     margin-top: 7%;
     text-align: center;
 }
@@ -33,11 +33,8 @@ a {
 
 /*style for the footer*/
 .gdpr {
-    bottom: 0px;
-    position: fixed;
     padding-bottom: 10px;
-    text-align: center;
-    width: 85%;
+    text-align: right;
 }
 
 /*style for text within the footer*/
