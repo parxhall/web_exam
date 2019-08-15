@@ -9,6 +9,15 @@
 ## GDPR: 
 ### Right to be informed Right of access Right to rectification Right to erasure Right to restrict processing Right to data portability Right to object.<p>
 ## Distance Selling:
-###I think with my previous knowledge on web
+### I think with my previous knowledge on web
 [I'm a relative reference to a repository file](assignment/index.html)
-![alt text](assignment/img/dt_inventory_p1.PNG)
+![wireframe](assignment/img/dt_home_page.PNG)
+![wireframe](assignment/img/dt_request.PNG)
+![wireframe](assignment/img/dt_inventory_p1.PNG)
+![wireframe](assignment/img/dt_inventory_p2.PNG)
+![wireframe](assignment/img/dt_contact_us.PNG)
+![wireframe](assignment/img/m_home_page.PNG)
+![wireframe](assignment/img/m_request.PNG)
+![wireframe](assignment/img/m_inventory_p1.PNG)
+![wireframe](assignment/img/m_inventory_p2.PNG)
+![wireframe](assignment/img/m_contact_us.PNG)
