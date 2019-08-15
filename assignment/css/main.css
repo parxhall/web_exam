@@ -10,6 +10,10 @@ body {
     background-size: cover;
 }
 
+section {
+    background-color: aliceblue;
+}
+
 /*style the heading NO PERCENTAGE */
 h1 {
     font: bold;
