@@ -82,3 +82,8 @@ footer {
 footer > a {
     font-size: 30px;
 }
+
+/*style for the table*/
+table, th, tr {
+    border: 1px solid black;
+  }

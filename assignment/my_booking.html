@@ -32,19 +32,39 @@
         <div id="upcoming" class="tabcontent">
             <h3>Upcoming</h3>
             <p>These are any current or future bookings.</p>
-            <div id="upcoming_display">
-                <p>Who requested: </p>
-            </div>
-            <script>
-            function show() {
-                document.getElementById("upcoming_display").innerHTML = person_name;
-                }
-            </script>
+            <!--this is a table-->
+            <table>
+                <!--this is the first row-->
+                <tr>
+                    <th>Date</th>
+                    <th>Item</th>
+                    <th>Requested By</th>
+                </tr>
+                <tr>
+                    <th>12/05/2019</th>
+                    <th>Laptop</th>
+                    <th>John Smith</th>
+                </tr>
+            </table>
         </div>
         <!--historical bookings tab-->
         <div id="history" class="tabcontent">
             <h3>History</h3>
             <p>These are you previous bookings.</p> 
+            <!--this is a table-->
+            <table>
+                <!--this is the first row-->
+                <tr>
+                    <th>Date</th>
+                    <th>Item</th>
+                    <th>Requested By</th>
+                </tr>
+                <tr>
+                    <th>12/05/2019</th>
+                    <th>Laptop</th>
+                    <th>John Smith</th>
+                </tr>
+            </table>
         </div>
     </div>
     <!--wrapper close-->
