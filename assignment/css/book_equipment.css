@@ -1,7 +1,12 @@
-/* Style the whole page */
+/*style the whole page*/
 * {
     font-family: arial;
     font-size: 30px;
+}
+
+/*style the body and gives form a margin*/
+body {
+    margin: 1em;
 }
 
 /*style the navigation list within the header*/
@@ -26,47 +31,52 @@ a {
  header {
     background-attachment: fixed;    
     background-image: url("../img/laptop.jpg"); 
-    background-position: 50%;   
+    background-position: top;   
     height: 130px;
     overflow: hidden;
  }
 
 /*style for text for the equipment*/
-label, .checkbox {
+.checkbox {
     font-size: 12px;
 }
 
-/*style for formatting of the text within the footer*/
+/*stlye for the collection details*/
+label {
+    font-size: 15px;
+    margin: 1px;
+}
+
+/*styles text within input boxes*/
+input[type="text"], input[type="date"], input[type="time"] {
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-color: inherit;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 4px 6px;
+}
+
+/*style for formatting of the checkboxes*/
 .section_1, .section_2, .section_3, .bottom {
     float: left;
     height: 25px;
     width: 30%;
 }
 
+/*styles the bottom row of checkboxes*/
 .bottom {
     margin-bottom: 1%;
 }
 
+/*styles checkbox wrapper*/
 .checkbox_wrapper {
     width: 100%;
 }
-/* 
-.text_area input[type="text"], input[type=date] { 
-    float: right;
-    margin-right: 70%;
-    width: 300px;
-    font-size: 17px;
-} */
 
-/*style for the footer*/
-footer {
-    float: bottom;
-    margin-right: 2%;
-    margin-top: 10%;
-    text-align: right;
-}
-
-/*style for text within the footer*/
-footer > a {
-    font-size: 30px;
+.submit {
+    border-radius: 12px;
+    color: brown
 }

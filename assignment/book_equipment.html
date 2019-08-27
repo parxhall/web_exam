@@ -217,22 +217,23 @@
                 </fieldset>
                 <!--this is where the persons name will go-->
                 <fieldset class="text_area">
-                    <div>
-                        <label for="person_name">Person Collecting:</label><br>
-                        <input type = "text" name="person_name" required>
-                    </div>
-                    <div>
-                        <label for="collect_date">Collection Date:</label><br>
-                        <input type = "date" name="collect_date" required>
-                    </div>
-                    <div>
-                        <label for="return_date">Return Date:</label><br>
-                        <input type = "date" name="return_date" required>
-                    </div>
-                    <div>
-                        <label for="collection_time">Return Date:</label><br>
-                        <input type = "time" name="collection_time" required>
-                    </div>
+                    <legend>Collection Details:</legend>    
+                        <div>
+                            <label for="person_name">Person Collecting:</label><br>
+                            <input type = "text" name="person_name" required>
+                        </div>
+                        <div>
+                            <label for="collect_date">Collection Date:</label><br>
+                            <input type = "date" name="collect_date" required>
+                        </div>
+                        <div>
+                            <label for="return_date">Return Date:</label><br>
+                            <input type = "date" name="return_date" required>
+                        </div>
+                        <div>
+                            <label for="collection_time">Collection Time:</label><br>
+                            <input type = "time" name="collection_time" required>
+                        </div>
                 </fieldset>
                 <p><input type="submit" name="send" value="Submit"></p>
             </form>
@@ -240,12 +241,6 @@
         <!--main section close-->
     </div>
     <!--wrapper end-->
-    <!--footer begin-->
-    <footer>
-        <!--this is the link to the GDPR and Distance Selling-->
-        <h3><a href="#">GDPR & Distance Selling</a></h3>
-    </footer>
-    <!--footer end-->
 </body>
 <!--body end-->
 </html>
