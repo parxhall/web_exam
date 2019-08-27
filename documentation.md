@@ -12,7 +12,7 @@
 ![wireframe](assignment/img/m_inventory_p1.PNG)
 ![wireframe](assignment/img/m_inventory_p2.PNG)
 ![wireframe](assignment/img/m_contact_us.PNG)
-![alt text](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FL5oKf7u1PZHTiidpx5uWpW%2FWeb-Tech)
+[Figma Wireframes](https://www.figma.com/file/L5oKf7u1PZHTiidpx5uWpW/Web-Tech)
 ## Colour Choices: 
 ### blue and a picture
 ## Accessibility:
