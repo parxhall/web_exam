@@ -41,3 +41,36 @@ a {
     font-size: 0.9em;
     margin-left: 9em;
 }
+
+/*styles media for mobile devide*/
+@media (max-width: 400px) { 
+    * {
+        padding: 0%;
+    }  
+
+    ul {
+        padding: 0%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    a.gdpr{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+
+    section {
+        margin: 7px;
+        margin-top: 35%;
+    }
+}

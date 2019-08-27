@@ -60,3 +60,15 @@ footer {
 footer > a {
     font-size: 30px;
 }
+
+/*styles media for mobile device*/
+@media (max-width: 400px) { 
+    header {
+        height: 30%;
+    } 
+    
+    a {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
