@@ -79,6 +79,12 @@ footer > a {
 }
 
 /*style for the table*/
+table {
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 100%;
+}
+
 table, th, tr {
     border: 1px solid black;
 }
