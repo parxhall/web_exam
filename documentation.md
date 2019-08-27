@@ -31,8 +31,7 @@
 ## Accessibility:
 ### My original design for the landing page was writing on a picture but I realised this isn't great for users who need visual aid so I had to change this in my final design.
 ## GDPR & Distance Selling: 
-### My company have a whole range of GDPR and Distance Selling rules and regulations they need to abide by which I read into. However I some of it wasn't relevant for my website as it will onl be accessible by internal users so I researched more online and came up with my own guidance for the customer and attached this onto the landing page.
-### [My word attachment can be found here](assignment/doc/gdpr-ds.docx)
+### My company have a whole range of GDPR and Distance Selling rules and regulations they need to abide by which I read into. However I some of it wasn't relevant for my website as it will onl be accessible by internal users so I researched more online and came up with my own guidance for the customer and attached this onto the landing page. [My GDPR & Distance Selling word attachment can be found here](C:\git\assignment\doc\gdpr_ds.docx)
 ### Right to be informed Right of access Right to rectification Right to erasure Right to restrict processing Right to data portability Right to object.
 ### I think with my previous knowledge on web
 
