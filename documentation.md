@@ -2,10 +2,10 @@
 # Solent University Unit Code: CDA404
 # *By Paris Hall*
 ## Background 
-### The current system in place for renting IT equipment is very manual and is all reliant on the IT department inputting data and checking dates. Most of these requests come via email but they can be verbal communication in person or over the phone so it leaves all responsibility onto the IT department so there is room for human error. With a new system we could have users request their own equipment and have traceable confirmations and a reliable audit trail. Currently the system operates off SharePoint and is manually entered into the calendar; the system heavily relies on the IT department to do a lot of the work and take all the responsibility.
+### The current system in place for renting IT equipment is very manual and is all reliant on the IT department inputting data and checking dates. Most of these requests come via email but they can be verbal communication in person or over the phone so it leaves all responsibility on the IT department where there is potential human error. With a new system we could have users request their own equipment and have traceable confirmations and a reliable audit trail. Currently the system operates off SharePoint and is manually entered into the calendar; the system heavily relies on the IT department to do a lot of the work and take all the responsibility.
 ### My website will allow users to request IT equipment in their own time and send push notifications to the IT department and send confirmations when the IT department have accepted the request, thus taking the responsibility off of the IT department. 
 ### I originally planned for my website to have four pages: 
-+ A landing page, for users to navigate between paged
++ A landing page, for users to navigate between other pages
 + A request page where customers will fill out a form
 + An inventory page for the IT department to confirm and track requests - this page is password protected (password = "1")
 + A contact page for details where customers can get help
@@ -33,7 +33,7 @@
 ### I also went one-step further and created a prototype of my website wireframes in Figma.
 ### [Figma Wireframes](https://www.figma.com/file/L5oKf7u1PZHTiidpx5uWpW/Web-Tech)
 ## Colour Choices: 
-### I conversed with my IT department on what colour scheme would fit with the company and found NETSCC have a blue theme. I tried to keep the website simple but modern and used a very small range of colours including blue, white and black and a relevant picture to modernise the look.
+### I conversed with my IT department on what colour scheme would fit with the company and found NETSCC have a blue theme. I tried to keep the website simple but modern and used a very small range of colours including blue, white and black and a relevant picture to modernise the look, I got the uncopyright image from [Unsplash](https://unsplash.com/)
 ## Accessibility:
 ### To conform to accessibility rights I had to:
 - Use alternate text for images
