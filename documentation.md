@@ -33,14 +33,14 @@
 ### I also went one-step further and created a prototype of my website wireframes in Figma.
 ### [Figma Wireframes](https://www.figma.com/file/L5oKf7u1PZHTiidpx5uWpW/Web-Tech)
 ## Colour Choices: 
-### I conversed with my IT department on what colour scheme would fit with the company and found NETSCC have a blue theme. I tried to keep the website simple but modern and used a very small range of colours including blue, white and black and a relevant picture to modernise the look, I got the uncopyright image from [Unsplash](https://unsplash.com/)
+### I conversed with my IT department on what colour scheme would fit with the company and found NETSCC have a blue theme. I tried to keep the website simple but modern and used a very small range of colours including blue, white and black and a relevant picture to modernise the look, I got the uncopyright image from [Unsplash.](https://unsplash.com/)
 ## Accessibility:
 ### To conform to accessibility rights I had to:
 - Use alternate text for images
 - Use keyboard inputs 
 - Transcript for audio
 - Make content easier to see and hear
-### My website mostly conformed to these rules however in my original design for the landing page the was writing was placed over a picture, I realised this isn't great for users who need visual aid so I had to change this in my final design. I looked into making my website keyboard accessible and found some Javascript but realised I can use the tab button and enter in a chrome browser. I didn’t use any images in my HTML, but I used background images in my CSS for aesthetic value, I believe this doesn’t need to contain alternate text
+### My website mostly conformed to these rules however in my original design for the landing page the was writing was placed over a picture, I realised this isn't great for users who need visual aid so I had to change this in my final design. I looked into making my website keyboard accessible and found some Javascript but realised I can use the tab button and enter in a chrome browser. I didn’t use any images in my HTML, but I used background images in my CSS for aesthetic value, I believe this doesn’t need to contain alternate text.
 ## GDPR & Distance Selling: 
 ### My company have a whole range of GDPR and Distance Selling rules and regulations they need to abide by which I read into. However I some of it wasn't relevant for my website as it will only be accessible by internal users so I researched more online and came up with my own guidance for the customer and attached this onto the landing page.
 ### General Data Protection Regulation (GDPR) is a guideline for how to keep data usage: fair/lawful, accurate, with a purpose, to the minimum, stored for a limited time, secure and accountable. It allows for the client to have certain rights including:
